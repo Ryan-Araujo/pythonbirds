@@ -20,6 +20,10 @@ if __name__ == '__main__':
     for i in range(80):
         fase.adicionar_passaro(PassaroAmarelo(30, 30))
 
+    # Adicionar Pássaros Vermelho
+    for i in range(80):
+        fase.adicionar_passaro(PassaroVermelho(30, 30))
+
 
     # Obstaculos
     theta = 270
